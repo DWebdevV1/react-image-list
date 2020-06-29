@@ -1,6 +1,6 @@
 import React from "react";
 import './ImageList.scss';
-import ImageContainer from "../image-container/ImageContainer";
+import ImageContainer from "../ImageContainer/ImageContainer";
 
 export default function ImageList({ props }) {
     console.log('props ImageList', props);
@@ -17,6 +17,7 @@ export default function ImageList({ props }) {
 
     return (
         <div className="Image-List-Wrapper">
+            <h2>Image List</h2>
             {imageList}
         </div>
     )
